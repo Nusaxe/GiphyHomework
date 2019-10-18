@@ -32,11 +32,11 @@
                 <div class="jumbotron jumbotron-fluid shadow-lg jumbotron1">
                     <div class="container container1">
                         <div class="input-group mb-3 inptgroup">
-                            <input type="text" class="form-control" placeholder="Search a synth here"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <input id="newSynth" type="text" class="form-control inputField"
+                                placeholder="Search a synth here" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"
-                                    id="button-addon2">Search</button>
+                                <button class="btn btn-outline-secondary" type="button" id="searchBtn">Search</button>
                             </div>
                         </div>
 
@@ -47,10 +47,11 @@
 
             <div class="col-8">
                 <div class="jumbotron jumbotron-fluid shadow-lg jumbotron3">
-                    <div class="container containerBtns">
-                        <button data-synth="CS-80" type="button" class="btn btn-secondary btn-sm">CS-80</button>
-                        <button data-synth="Jupiter-8" type="button" class="btn btn-secondary btn-sm">Jupiter-8</button>
-                        <button data-synth="OB-8" type="button" class="btn btn-secondary btn-sm">OB-8</button>
+                    <div class="container containerBtns" id="btn-div">
+                        <button data-synth="CS-80" type="button" class="btn btn-secondary btn-sm btns">CS-80</button>
+                        <button data-synth="Jupiter-8" type="button"
+                            class="btn btn-secondary btn-sm btns">Jupiter-8</button>
+                        <button data-synth="OB-8" type="button" class="btn btn-secondary btn-sm btns">OB-8</button>
 
                     </div>
                 </div>
