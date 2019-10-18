@@ -13,23 +13,43 @@
     opacity: 1;
 }
 
-.col4 {
- 
+.jumbotron1 {
     
+    opacity: 1;
 }
 
-
 body {
-    background-image: url("https://i.imgur.com/OqH4GUk.jpg");
+    background-color: lightblue;
+    background-image: url("");
     
     
    }
 
 .jumbotron2 {
     min-height: 700px;
-    opacity: 0.2;
+    opacity: 1;
 }
 
-.row1{
-    
+.col5 {
+    background-color: cadetblue;
+}
+
+.row1 {
+    margin-top: 40px;
+}
+
+
+
+.nvbr{
+    margin-top: 20px;
+    opacity: 1;
+}
+
+.jumbotron3 {
+    opacity: 1;
+    min-height: 180px;
+}
+
+.container1{
+    opacity: 1;
 }
